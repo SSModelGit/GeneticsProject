@@ -1,0 +1,14 @@
+mut_screen_sfun.o
+c2_mut_screen.o
+mut_screen_sfun_registry.o
+-L/applications/Matlab/bin/glnxa64 -lmwsf_runtime
+-L/applications/Matlab/bin/glnxa64 -lfixedpoint
+-L/applications/Matlab/bin/glnxa64 -lut
+-L/applications/Matlab/bin/glnxa64 -lemlrt
+-L/applications/Matlab/bin/glnxa64 -lmwmathutil
+-L/applications/Matlab/bin/glnxa64 -lmwblas
+-L/applications/Matlab/bin/glnxa64 -lmwsl_log_load_blocks
+-L/applications/Matlab/bin/glnxa64 -lmwsimulink
+-L/applications/Matlab/bin/glnxa64 -lmwsl_sfcn_cov_bridge
+-L/applications/Matlab/bin/glnxa64 -lmwlapack
+-L/applications/Matlab/bin/glnxa64 -lmwipp

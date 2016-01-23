@@ -1,5 +1,5 @@
 %mut_params
-mut.fertility = 0.000050; % 0.000035 is an amazing cyclic-looking breath taker
+mut.fertility = 0.000040; % 0.000035 is an amazing cyclic-looking breath taker
 mut.M2Fprobability = 0.5;
 mut.Y_C = 20;
 mut.Y_R = 75;
@@ -21,7 +21,7 @@ L_SFinit= 10494416;
 
 % split01=0.5
 % split01=56.5/95;
-split01=0.3;
+split01=65/96.5;
 
 init.L_0CM_0 = [L_CMinit*(1-freqInit)*split01,0];
 init.L_0CM_0(2) = init.L_0CM_0(1) * mut.Y_C * 0.5;
@@ -82,16 +82,9 @@ mut.mort=[0.00141, 0.00141, 0.042348, 0.042348, 0.21226, 0.21226];
 
 mut.muMort = [0, 0, 0, 0, 0, 0; ...
               0, 0, 0, 0, 0, 0; ...
-              0, 0, 0, 0, 0, 0];
+              0.25^(20), 0.20^(20), .85^(55), .75^(55), 0.7, 0.8];
           
           
-popData = [ 299398484,	296507061,	293638158,	290796023,	288125973, ...
-    285226284,	282216952,	281424602,	281421906];
 
-popData = sort(popData);
 
-mut.screen.NR = 0.0;
-mut.screen.LR = 0.5;
-mut.screen.MR = 0.75;
-mut.screen.HR = 1.0;
-mut.screen.efficiency = 0.75;
+
