@@ -2,6 +2,7 @@ dMat.year=1996:1:2006;
 % PKU statistics: total newborn children tested, and number of cases of PKU
 dMat.PKU.TNC=[3894874,3898260,3945192,4024850,4125135,4031531,4016358,4096092,4118907,4051277,4171306];
 dMat.PKU.case=[210,165,158,205,193,193,193,231,165,182,181];
+dMat.PKU.freq= dMat.PKU.case ./ dMat.PKU.TNC;
 % FS statistics: total newborn children tested, and number of cases of FS
 dMat.FS.TNC=[3484753,3670040,3766099,3903393,3850489,3950067,3984894,4045428,4092906,4051277,4171306];
 dMat.FS.case=[897,956,1147,877,832,1210,1166,1142,1056,1047,1055];
