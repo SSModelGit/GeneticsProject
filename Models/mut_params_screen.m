@@ -94,4 +94,4 @@ mut.screen.NR = 0.0;
 mut.screen.LR = 0.5;
 mut.screen.MR = 0.75;
 mut.screen.HR = 1.0;
-mut.screen.efficiency = 0.75;
+mut.screen.efficiency = 0.50;
